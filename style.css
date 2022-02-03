@@ -4,7 +4,22 @@
     box-sizing: border-box;
 }
 body{
-   
+   background-color: var(--bg-color);
+  
+}
+
+:root {
+    --moderate-cyan: hsl(176, 50%, 47%);
+    --dark-cyan: hsl(176, 72%, 28%);
+    --black: hsl(0, 0%, 0%);
+   --bg-color: rgb(253, 251, 251);
+    --dark-gray: hsl(0, 0%, 48%);
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--black);
+}
+p{
+    color: var(--dark-gray);
 }
 header{
     background-repeat: no-repeat;
@@ -39,8 +54,64 @@ color: crimson;
 
 }
 
+/*=========herro section
 
+*/
+.container{
+    width: 600px;
+ background-color: rgb(242, 243, 241);
+ margin: 0 auto;
+ position: relative;
+ top: -80px;
+ border-radius: 8px;
+ padding: 25px;
+}
+.secondary-logo{
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section-heading{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
 
+}
+.section-heading h1{
+    margin-bottom: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.buttons button {
+    border: 0;
+    background-color: hsl(176deg 41% 77% / 18%);;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 8px 20px;
+    height: 50px;
+    color: white;
+}
+.buttons button:first-chaild{
+    background-color: hsl(176deg 74% 51% / 18%);;
+}
+.buttons button:last-chaild{
+    background-color:var(--dark-gray);
+}
+.buttons button img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -20px;
+}
+.buttons .bookmarks{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
 
 
 
