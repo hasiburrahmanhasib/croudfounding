@@ -87,18 +87,30 @@ color: crimson;
     justify-content: space-between;
   
 }
-.buttons button {
+button:disabled, button:disabled:hover{
+    background-color: rgb(109, 106, 103);
+    cursor: default;
+}
+
+.btn {
     border: 0;
     background-color:hsl(176deg 44% 26% / 83%);
     border-radius: 50px;
     cursor: pointer;
-    padding: 8px 20px;
+    padding: 6px 30px;
     height: 50px;
     color: white;
+    transition: all 300ms ease-in-out;
 }
-.buttons button:first-chaild{
-    background-color:hsl(176deg 44% 26% / 83%);
+.btn-primary{
+    background-color: var(--moderate-cyan);
+    
 }
+.btn-primary:hover{
+    background-color: hsl(176deg 62% 25%);
+    
+}
+
 .buttons button:last-chaild{
     background-color:var(--dark-gray);
 }
@@ -134,14 +146,50 @@ margin-bottom: 25px;
     position: relative;
 }
 .horizontal-bg{
-    background-color: red;
+    background-color: rgb(230, 233, 233);
     height: 8px;
 }
+.horizonta-bg2{
+    width: 80%;
+    background-color: var(--dark-cyan);
+}
+.horizontal-bg, .horizonta-bg2{
+    height: 8px;
+    border-radius: 30px;
+}
+/* project details */
+.project-details h2, .project-details p {
+margin-bottom: 25px;
+}  
 
 
-
-
-
+/* reward-card */
+.reward-wraper {
+border: 1px solid red;
+border-radius: 8px;
+padding: 30px;
+margin-bottom: 25px;
+}
+.reward-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.reward-wraper p{
+margin-bottom: 25px;
+}
+.reward-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reward-footer-left span{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    margin-right: 8px;
+}
 
 
 
