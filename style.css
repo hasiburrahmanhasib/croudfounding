@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-   background-color:burlywood;
+   background-color: rgb(230, 233, 233);
   
 }
 
@@ -59,7 +59,8 @@ color: crimson;
 */
 .container{
     width: 600px;
- background-color: rgb(242, 243, 241);
+ background-color: rgb(230, 233, 233);
+ border:1px solid rgb(231, 226, 226);
  margin: 0 auto;
  position: relative;
  top: -80px;
@@ -165,7 +166,7 @@ margin-bottom: 25px;
 
 /* reward-card */
 .reward-wraper {
-border: 1px solid red;
+border: 1px solid rgb(228, 225, 225);
 border-radius: 8px;
 padding: 30px;
 margin-bottom: 25px;
